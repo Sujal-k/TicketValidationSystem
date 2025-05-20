@@ -4,6 +4,8 @@ import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import WelcomePage from './pages/WelcomePage';
 import EventsPage from './pages/EventsPage';
+import AdminAddEvent from './pages/AdminAddEvent';
+
 function App() {
   return (
     <Routes>
@@ -11,6 +13,8 @@ function App() {
       <Route path="/user/login" element={<Login />} />
       <Route path="/user/signup" element={<SignUp />} />
       <Route path="/user/events" element={<EventsPage />} />
+      <Route path="/admin" element={<AdminAddEvent />} />
+
 
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
