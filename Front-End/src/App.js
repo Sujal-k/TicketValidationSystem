@@ -13,7 +13,7 @@ function App() {
       <Route path="/user/login" element={<Login />} />
       <Route path="/user/signup" element={<SignUp />} />
       <Route path="/user/events" element={<EventsPage />} />
-      <Route path="/admin" element={<AdminAddEvent />} />
+      <Route path="/admin/addevents" element={<AdminAddEvent />} />
 
 
       <Route path="*" element={<Navigate to="/" replace />} />
