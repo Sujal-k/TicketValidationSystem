@@ -7,6 +7,7 @@ import EventsPage from './pages/EventsPage';
 import AdminAddEvent from './pages/AdminAddEvent';
 
 function App() {
+  
   return (
     <Routes>
       <Route path="/" element={<WelcomePage />} />
